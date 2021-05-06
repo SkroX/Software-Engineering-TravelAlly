@@ -1,3 +1,8 @@
+Name: Ankit Kumar(185051), Shubham Kumar(185054), Gajendra Surariya(185082), Priyanshu Agrawal(185095) </br>
+Course: CSD-327 Software Engineering LAB </br>
+Date: May 6th, 2021 </br>
+Submitted to: Dr. Dharmendra Prasad Mahto
+    
 # TravelAlly-Android
 Android app to join the travelers visiting the same destination.
 
