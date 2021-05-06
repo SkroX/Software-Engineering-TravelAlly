@@ -1,0 +1,41 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="trip"
+            type="com.github.skrox.travelally.data.db.entities.Trip" />
+
+        <variable
+            name="vm"
+            type="com.github.skrox.travelally.ui.mainscreen.home.HomeViewModel" />
+    </data>
+
+    <!--    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/card_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_margin="2dp"-->
+    <!--        card_view:cardBackgroundColor="#fff"-->
+    <!--        card_view:cardCornerRadius="5dp"-->
+    <!--        card_view:cardElevation="4dp"-->
+    <!--        card_view:cardUseCompatPadding="true">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" />
+
+    </RelativeLayout>
+
+    <!--    </androidx.cardview.widget.CardView>-->
+</layout>
